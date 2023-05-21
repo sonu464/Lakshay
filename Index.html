@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <title>html Editor</title>
+
+    </head>
+
+    <body>
+
+        <button onclick="myfunction()">search</button>
+
+        <input id="search" type="text" placeholder="Search the food items">
+
+    </body>
+
+    
+
+    <script>
+
+    function myfunction() {
+
+        
+
+    const calorie =['Egg : Calorie 155','Chicken : Calorie 239' ]
+
+    
+
+    let i = 0;
+
+    
+
+     let a = document.getElementById('search').value;
+
+     console.log(a);
+
+     
+
+     let Egg = 0;
+
+     let Chicken = 1;
+
+     
+
+     if(a==="Egg"){
+
+         console.log(calorie[Egg]);
+
+         alert(calorie[Egg]);
+
+     }else if(a==="Chicken"){
+
+         alert(calorie[Chicken]);
+
+     }
+
+     else{
+
+         alert("sorry we don't have any information about that")
+
+     }
+
+     
+
+     
+
+ }
+
+    </script>
+
+    
+
+</html>
+
+		
